@@ -40,3 +40,8 @@ source venv/bin/activate  # On Windows use: venv\Scripts\activate
 
 # Install dependencies
 pip install -r requirements.txt
+
+Performance Note & Limitations
+Model Edge Case: Model ini dioptimalkan untuk mendeteksi gerakan tangan yang tidak biasa (seperti memasukkan barang secara mencurigakan). Akurasi dapat bervariasi tergantung pada sudut pandang kamera (angle) pencahayaan, dan posisi objek/saku pakaian.
+
+Hardware Info: Untuk performa terbaik secara real-time, pastikan pustaka CUDA sudah terkonfigurasi dengan benar jika ingin menjalankan inferensi pada GPU.
