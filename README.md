@@ -12,15 +12,14 @@ A Computer Vision-based security system designed to detect shoplifting and suspi
 
 ## 🛠️ Tech Stack & Libraries
 * **Language:** Python
-* **Framework Frameworks:** TensorFlow / Keras (or PyTorch, silakan sesuaikan dengan modelmu)
+* **Machine Learning & Frameworks:** TensorFlow / Keras, Scikit-learn
 * **Computer Vision:** OpenCV
-* **Deployment/Interface:** Streamlit / Flask (Hapus jika tidak pakai GUI)
+* **Data Manipulation:** NumPy, Pandas
 
 ## 📊 Dataset & Model Architecture
 Project ini menggunakan pendekatan Transfer Learning untuk mendeteksi anomali perilaku manusia.
 * **Base Model:** MobileNetV2 (Ringan dan cocok untuk deteksi real-time)
 * **Input:** Video Stream / Frame CCTV
-
 ---
 
 ## 🚀 Getting Started
