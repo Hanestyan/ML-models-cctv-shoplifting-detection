@@ -21,18 +21,11 @@ Project ini menggunakan pendekatan Transfer Learning untuk mendeteksi anomali pe
 * **Base Model:** MobileNetV2 (Ringan dan cocok untuk deteksi real-time)
 * **Input:** Video Stream / Frame CCTV
 ---
-
-# Create a virtual environment
-python -m venv venv
-source venv/bin/activate  # On Windows use: venv\Scripts\activate
-
-# Install dependencies
-pip install -r requirements.txt
-
-Performance Note & Limitations
+# Performance Note & Limitations
 Model Edge Case: Model ini dioptimalkan untuk mendeteksi gerakan tangan yang tidak biasa (seperti memasukkan barang secara mencurigakan). Akurasi dapat bervariasi tergantung pada sudut pandang kamera (angle) pencahayaan, dan posisi objek/saku pakaian.
 
 Hardware Info: Untuk performa terbaik secara real-time, pastikan pustaka CUDA sudah terkonfigurasi dengan benar jika ingin menjalankan inferensi pada GPU.
+
 
 ## 🚀 Getting Started
 
@@ -43,5 +36,13 @@ Make sure you have Python 3.8+ installed. It is highly recommended to use a virt
 
 ```bash
 # Clone this repository
-git clone [https://github.com/USERNAME_KAMU/NAMA_REPO_KAMU.git](https://github.com/USERNAME_KAMU/NAMA_REPO_KAMU.git)
-cd NAMA_REPO_KAMU
+git clone [https://github.com/USERNAME_KAMU/NAMA_REPO_KAMU.git](https://github.com/Hanestyan/ML-models-cctv-shoplifting-detection
+.git)
+cd ML-models-cctv-shoplifting-detection
+
+# Create a virtual environment
+python -m venv venv
+source venv/bin/activate  # On Windows use: venv\Scripts\activate
+
+# Install dependencies
+pip install -r requirements.txt
